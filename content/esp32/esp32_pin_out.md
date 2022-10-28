@@ -100,3 +100,11 @@ Restrictions:-
 | --- | --- |
 | DAC1 | 25 |
 | DAC2 | 26 |
+
+## CAN
+
+There is one CAN bus available on the ESP32:
+
+| CAN# | RX # | TX # |
+| ---- | ---- | ---- |
+| CAN1 | NP | NP | 
