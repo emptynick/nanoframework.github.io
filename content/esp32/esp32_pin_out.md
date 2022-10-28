@@ -105,6 +105,10 @@ Restrictions:-
 
 There is one CAN bus available on the ESP32:
 
-| CAN# | RX # | TX # |
-| ---- | ---- | ---- |
-| CAN1 | NP | NP | 
+| CAN# | RX # | TX # | Bus off # | Clock out # |
+| --- | --- | --- | --- | --- |
+| CAN1 | NP | NP | NP | NP |
+
+Notes:
+- Bus off is optional. It is set to low whenever the TWAI driver reaches the bus-off state.
+- Clock out is optional. It outputs the drivers APB Clock.
